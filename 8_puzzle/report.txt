@@ -1,0 +1,48 @@
+1. Hours to complete the project: 48 hours
+
+2. Provide a short description of how you approached each problem, issues you 
+   encountered, and how you resolved those issues.
+
+   Problem 1 (Board Data Type): To go about this problem, I used the checklist
+   screencast, and pdf. The first problem I faced was in implementing the
+   blankPos() helper method. I had to think about how to actually get the
+   blank tile's position according to row-major order. I discovered after
+   looking at the matrix examples that it could be found using i * N + j.
+   I also inially had inversions() wrong, but I eventually fixed it.
+   for cloneTiles, I initially thought about aliasing, but figured out that
+   what I was doing would work. Calculating hamming and manhattan initially
+   vague to me, until I realized that the calculation should occur in the
+   constructor rather than in the actual methods themselves; which just
+   return the hamming and manhattan variables respectively. The manhattan
+   calculation definitely took more thinking than the hamming one. neighbors()
+   was also a struggle until I figured out how to get i and j from the
+   blankPos() call and deal with the out ouf bounds issues. Other than that,
+   every other method implementation was mostly clear.
+
+   Problem 2 (Solver Data Type): Like the previous problem, I also used the
+   checklist, screencast, and pdf. Initially, I struggled with how to "get"
+   solution when the board at the node is the goal board. I realized that
+   it can be done by pushing the node's board into the solution LinkedStack
+   using a while loop until the previous node is null. Then I had to recall
+   how to use the Iterable object and have the right conditions in the if
+   and else if statements. I also needed to remember how to incoporate the
+   helper comparators and realized that I should pass either one when
+   initializing the priority queue.
+
+3. Did you receive help from anyone? List their names, status (classmate, 
+   CS210 grad, TA, other), and the nature of help received.
+
+   Name               Status       Help Received
+   ----               ------       -------------
+
+   ...                ...          ...
+
+4. List any other comments here. Feel free to provide any feedback on how
+   much you learned from doing the assignment, and whether you enjoyed
+   doing it.
+
+   All in all, I felt that the checklist and overal guidance for the project
+   was more vague than usual. This project really required a lot of thinking
+   and required the ability to recall how to use the interface constructs well.
+   With all the thinking and debugging that went into this project, I feel very
+   rewarded and look forward to what projects come down the road.

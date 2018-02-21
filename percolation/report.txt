@@ -1,0 +1,39 @@
+1. Hours to complete the project: 12 hours
+
+2. Provide a short description of how you approached each problem, issues you
+   encountered, and how you resolved those issues.
+
+   Problem 1 (Model a Percolation System): I utilized the pdf, checklist, and
+   screencast in order to go about doing this project. My initial issue was
+   knowing how to use Union Find because I initially thought that this problem
+   could be done without it. Turns out, it's actually more efficient with it.
+   After looking at the checklist and watching the screencast, it became
+   clearer to me. At first, I didn't know how to implement the private method
+   encode(), but after going on Piazza, I was able to. Finally, I was facing
+   out of bounds errors with open(), but thanks to consulting Piazza and some
+   thinking, I figured out where I went wrong.
+
+   Problem 2 (Estimate Percolation Threshold): This part of the project was
+   more straightforward, but I did have to do some debugging. I realized that
+   my issue laid in the constructor. I needed to correct my denominator when
+   calculating the fraction to store in p[]. I also needed to type cast that
+   calculation to a double. I also didn't know what StdStats was for, but I
+   looked at the documentation and found that I could use it for the mean.
+
+3. Did you receive help from anyone? List their names, status (classmate, 
+   CS210 grad, TA, other), and the nature of help received.
+
+   Name               Status       Help Received
+   ----               ------       -------------
+
+   ...                ...          ...
+
+4. List any other comments here. Feel free to provide any feedback on how
+   much you learned from doing the assignment, and whether you enjoyed
+   doing it.
+
+   All in all, this project made me think and was a good way to start off the
+   second semester. While I have done this briefly is the past before, this
+   assignment is also the first time I really got to throw error exceptions.
+   Once I understood what needed to be done, I began to make good progress
+   and now feel rewarded for doing it.

@@ -1,0 +1,60 @@
+Project documentation
+<---- javadoc command: ---->
+/usr/lib/jvm/java-8-oracle/bin/javadoc
+-sourcepath
+/home/tokomaki/Desktop/percolation
+-source
+1.8
+-classpath
+/usr/share/bluej/bluejcore.jar:/usr/share/bluej/junit-4.8.2.jar:/home/tokomaki/lib/algs4.jar:/usr/share/bluej/userlib/pi4j-core.jar:/usr/share/bluej/userlib/pi4j-device.jar:/usr/share/bluej/userlib/pi4j-gpio-extension.jar:/usr/share/bluej/userlib/pi4j-service.jar:/home/tokomaki/Desktop/percolation
+-d
+/home/tokomaki/Desktop/percolation/doc
+-encoding
+UTF-8
+-charset
+UTF-8
+-docletpath
+/usr/share/bluej/bjdoclet.jar
+-doclet
+bluej.doclet.doclets.formats.html.HtmlDoclet
+-doctitle
+percolation
+-windowtitle
+percolation
+-author
+-version
+-nodeprecated
+-package
+-link
+http://download.oracle.com/javase/8/docs/api/
+/home/tokomaki/Desktop/percolation/InteractivePercolationVisualizer.java
+/home/tokomaki/Desktop/percolation/PercolationStats.java
+/home/tokomaki/Desktop/percolation/PercolationVisualizer.java
+/home/tokomaki/Desktop/percolation/Percolation.java
+<---- end of javadoc command ---->
+Loading source file /home/tokomaki/Desktop/percolation/InteractivePercolationVisualizer.java...
+Loading source file /home/tokomaki/Desktop/percolation/PercolationStats.java...
+/home/tokomaki/Desktop/percolation/PercolationStats.java:7: error: illegal start of type
+    ...
+    ^
+/home/tokomaki/Desktop/percolation/PercolationStats.java:7: error: ';' expected
+    ...
+       ^
+/home/tokomaki/Desktop/percolation/PercolationStats.java:12: error: illegal start of expression
+        ...
+        ^
+/home/tokomaki/Desktop/percolation/PercolationStats.java:17: error: illegal start of expression
+        ...
+        ^
+/home/tokomaki/Desktop/percolation/PercolationStats.java:22: error: illegal start of expression
+        ...
+        ^
+/home/tokomaki/Desktop/percolation/PercolationStats.java:27: error: illegal start of expression
+        ...
+        ^
+/home/tokomaki/Desktop/percolation/PercolationStats.java:32: error: illegal start of expression
+        ...
+        ^
+Loading source file /home/tokomaki/Desktop/percolation/PercolationVisualizer.java...
+Loading source file /home/tokomaki/Desktop/percolation/Percolation.java...
+7 errors

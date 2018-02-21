@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=N\ T
+comment0.target=PercolationStats(int,\ int)
+comment1.params=
+comment1.target=double\ mean()
+comment2.params=
+comment2.target=double\ stddev()
+comment3.params=
+comment3.target=double\ confidenceLow()
+comment4.params=
+comment4.target=double\ confidenceHigh()
+comment5.params=args
+comment5.target=void\ main(java.lang.String[])
+numComments=6

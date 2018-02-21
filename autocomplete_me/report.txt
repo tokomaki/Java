@@ -1,0 +1,53 @@
+1. Hours to complete the project: 12 hours
+
+2. Provide a short description of how you approached each problem, issues you 
+   encountered, and how you resolved those issues.
+
+   Problem 1 (Autocomplete Term): In going about this problem, I used the pdf,
+   screencast, and checklist. In implementing this file, I didn't run into too
+   many issues. The only issue worth mentioning is my implementation of
+   compare in the private PrefixOrder class. I eventually figured out that I
+   had to not just compare the substring lengths but to actually use the
+   lengths to get the substrings and use the String compareTo() to compare
+   them.
+
+   Problem 2 (Binary Search Deluxe): Once again, I used the pdf, screencast,
+   and checklist for guidance. I also looked at the slide in charge of binary
+   search for reference when writing the binary search part of the
+   implementation. A problem I ran into was how to compare key with a[mid].
+   In the slide example, the arguments were integers, but here my arguments
+   were generic. I realized that I needed to use compare from the comparator
+   and use the return from that call to compare with 0. The screencast came
+   in handy when it came to differentiating the implementation for
+   firstIndexOf() and lastIndexOf().
+
+   Problem 3 (Autocomplete): Like the previous 2 problems, I used the pdf,
+   screencast and checklist to go about this problem. Some issues I faced
+   along the way included out-of-bounds errors and null pointer exceptions.
+   I also faced issues with how to copy terms into my array in allMatches()
+   and how to actually reverse-sort the array. I did some exploring and
+   found Arrays.copyOfRange() to be useful when copying the array to the
+   other and clone() when copying terms to this.terms defensively in the
+   constructor. Finally, I was able to overcome those issues, and after
+   asking Professor Iyer about allMatches(), I learned that I needed to
+   pass the reversing comparator into Arrays.sort().
+   
+3. Did you receive help from anyone? List their names, status (classmate, 
+   CS210 grad, TA, other), and the nature of help received.
+
+   Name               Status       Help Received
+   ----               ------       -------------
+
+   Swami Iyer         Professor    Explanation
+
+4. List any other comments here. Feel free to provide any feedback on how
+   much you learned from doing the assignment, and whether you enjoyed
+   doing it.
+
+   All in all, while this project was mostly straightforward for the most
+   part, I still felt challenged. Using the interfaces is still something
+   I'm trying to get better at understanding, even though I was able to
+   properly use them here. With that said, I actually got a better
+   understanding of how comparator works by doing this project. I feel
+   happy about being able to do this project and look forward to learning
+   more.

@@ -1,0 +1,37 @@
+1. Hours to complete the project: 18 hours
+
+2. Provide a short description of how you approached each problem, issues you 
+   encountered, and how you resolved those issues.
+
+   Problem 1 (Deque): To go about this problem, I used the pdf, the checklist,
+   and the screencast. I also used the slide regarding basic data structures
+   as reference. Problems I ran to included NullPointer exception errors and
+   OutOfBounds exceptions. I eventually fixed these issues. I also needed to
+   add some conditional statements when it came to AddFirst and AddLast.
+
+   Problem 2 (Random Queue): Like the first problem, I used theh pdf,
+   checklist, and screencast. I followed the checklist as closely as I could.
+   I did end up getting some interesting errors, but eventually managed to
+   find where I was going wrong. One important change was my usage of q.length
+   vs N.
+
+   Problem 3 (Subset): Subset was pretty straightforward for the most part.
+   I just followed the checklist and implemented it appropriately. I didn't
+   have any problems using StdIn.
+   
+3. Did you receive help from anyone? List their names, status (classmate, 
+   CS210 grad, TA, other), and the nature of help received.
+
+   Name               Status       Help Received
+   ----               ------       -------------
+
+   Swami Iyer         Professor    Office Hour help and explanation
+   Donald             Student      Gave clarification about variable
+
+4. List any other comments here. Feel free to provide any feedback on how
+   much you learned from doing the assignment, and whether you enjoyed
+   doing it.
+
+   All in all, this project took some thinking. I got to better understand
+   how to work with the structures - LinkedLists, Resizing Arrays, and
+   Iterator. Completing this project felt rewarding.

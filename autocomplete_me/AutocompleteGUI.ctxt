@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=filename\ k
+comment0.target=AutocompleteGUI(java.lang.String,\ int)
+comment0.text=\n\ Initializes\ the\ GUI,\ and\ the\ associated\ Autocomplete\ object\n\ @param\ filename\ the\ file\ to\ read\ all\ the\ autocomplete\ data\ from\n\ @param\ k\ the\ maximum\ number\ of\ suggestions\ to\ return\n
+comment1.params=ae
+comment1.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment2.params=ae
+comment2.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment3.params=s
+comment3.target=void\ searchOnline(java.lang.String)
+comment3.text=\n\ Creates\ a\ URI\ from\ the\ user-defined\ string\ and\ searches\ the\ web\ with\ the\n\ selected\ search\ engine\n\ Opens\ the\ default\ web\ browser\ (or\ a\ new\ tab\ if\ it\ is\ already\ open)\n\ @param\ s\ string\ to\ search\ online\ for\n
+comment4.params=args
+comment4.target=void\ main(java.lang.String[])
+comment4.text=\n\ Creates\ an\ AutocompleteGUI\ object\ and\ start\ it\ continuously\ running\n\ @param\ args\ the\ filename\ from\ which\ the\ Autocomplete\ object\ is\ populated\n\ and\ the\ integer\ k\ which\ defines\ the\ maximum\ number\ of\ objects\ in\ the\ \n\ dropdown\ menu\n
+comment5.params=
+comment5.target=void\ run()
+numComments=6

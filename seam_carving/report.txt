@@ -1,0 +1,35 @@
+1. Hours to complete the project: 18 hours
+
+2. Provide a short description of how you approached each problem, issues you
+   encountered, and how you resolved those issues.
+
+   Problem 1 (Energy Calculation): In solving this problem, I used the pdf and
+   checklist as reference. Overall, I had to think a bit about the concept
+   and how to actually get the energy calculated, but once I understood it, I
+   was able to put it into code.
+
+   Problem 2 (Seam Identification): Once again, I used the pdf and the
+   checklist as references to help me. After looking at the checklist, I
+   implemented this part of the project with a little bit of error and some
+   time thinking. I eventully figured out the problems, including out of bounds
+   errors.
+
+   Problem 3 (Seam Removal): I used the pdf and the checklist as guiding
+   references once again. I personally thought that this part of the
+   project was a more straightforward, but I did run into some silly syntax
+   errors along the way.
+
+3. Did you receive help from anyone? List their names, status (classmate,
+   CS210 grad, TA, other), and the nature of help received.
+
+   Name               Status       Help Received
+   ----               ------       -------------
+
+   ...                ...          ...
+
+4. List any other comments here. Feel free to provide any feedback on how
+   much you learned from doing the assignment, and whether you enjoyed
+   doing it.
+
+   Overall, I thought this project wasn't too difficult while still allowing
+   me to apply what I've learned in class.

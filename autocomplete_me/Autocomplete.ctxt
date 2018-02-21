@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=terms
+comment0.target=Autocomplete(Term[])
+comment1.params=prefix
+comment1.target=Term[]\ allMatches(java.lang.String)
+comment2.params=prefix
+comment2.target=int\ numberOfMatches(java.lang.String)
+comment3.params=args
+comment3.target=void\ main(java.lang.String[])
+numComments=4

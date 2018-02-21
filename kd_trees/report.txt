@@ -1,0 +1,38 @@
+1. Hours to complete the project: 36 hours
+
+2. Provide a short description of how you approached each problem, issues you 
+   encountered, and how you resolved those issues.
+
+   Problem 1 (Brute-force Implementation): To solve this problem, I used the
+   pdf and checklist to act as guidance and reference. The implementation was
+   mostly straightforward for the most part. I went on the textbook authors'
+   website to check the API of RedBlackBST and implemented accordingly. 
+   The part that gave the most problem was the implemenation of nearest and
+   the iterable nearest. I eventually figured I could just implement the
+   iterable nearest and call it with p and 1 as arguments in nearest and 
+   return the point in the iterable.
+
+   Problem 2 (2d-tree Implementation): Once again, I used the pdf and checklist
+   as guidance in implementing this problem. The first several methods were a
+   bit more clear, but the other methods took a lot more thinking. I had to
+   think about what arguments to pass. For example, I had to build a rectangle
+   object of dimensions consisiting of negative and positive infinity. I also
+   had to keep in mind the API's of all the structures, recursion, and how
+   the search and insert worked in this implementation. I also ran into some
+   null pointer exceptions because I forgot to place a recursive call to put.
+
+3. Did you receive help from anyone? List their names, status (classmate, 
+   CS210 grad, TA, other), and the nature of help received.
+
+   Name               Status       Help Received
+   ----               ------       -------------
+
+   ...                ...          ...
+
+4. List any other comments here. Feel free to provide any feedback on how
+   much you learned from doing the assignment, and whether you enjoyed
+   doing it.
+
+   All in all, this project took a lot of thinking. I feel very rewarded for
+   being able to complete it. I look forward to what other content comes in the
+   future.
